@@ -1,0 +1,77 @@
+<header>
+  <h2 class="header-title">Indira College Of Commerce and Science, Pune</h2> 
+  
+  <nav class="navbar">
+    <ul>
+      <li><a routerLink="/programmes">Programmes</a>
+        <ul class="submenu">
+          <li><a routerLink="/programmes/computer-it">Computer</a></li>
+          <li><a routerLink="/programmes/commerce">Commerce</a></li>
+          <li><a routerLink="/programmes/postgraduate">Postgraduate</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="/alumni">Alumni</a></li>
+      <li><a routerLink="/students">Students</a>
+        <ul class="submenu">
+          <li><a routerLink="/students/activities">Activities</a></li>
+          <li><a routerLink="/students/sports">Sports</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="/aboutus">About Us</a>
+        <ul class="submenu">
+          <li><a routerLink="/aboutus/indiragroup">Indira Group of Institutes</a></li>
+          <li><a routerLink="/aboutus/iccs">ICCS</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="/examnotice">Exam Notice</a></li>
+      <li><a routerLink="/placements">Placements</a>
+        <ul class="submenu"> 
+          <li><a routerLink="/placements/placedstud">Placed student Details</a></li>
+          <li><a routerLink="/placements/placementcommittee">Placement Committee</a></li>
+        </ul>  
+      </li>
+    </ul> 
+  </nav>
+</header>
+
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>
+<!-- Image Section -->
+<div class="image-section">
+  <img src="assets/banner1.png" alt="College image">
+</div>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h2>Address</h2>
+      <p>‘Dhruv’, 89/2A, New Pune-Mumbai Highway, Tathwade, Pune – 411033, India</p>
+      <p>Phone Number:</p>
+      <ul>
+        <li>Computer Science and Application: +91 020 66759634 / 507 / 504</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h2>Email</h2>
+      <ul>
+        <li>Computer Science and Application: </li>  
+          <a [attr.href]="'mailto:janardanp@iccs.ac.in'" >janardanp&#64;iccs.ac.in</a><br>
+          <a [attr.href]="'mailto:shivendu@iccs.ac.in'" >shivendu&#64;iccs.ac.in</a>
+          <br>
+        <li>Commerece and Management:</li>
+        <a [attr.href]="'mailto:thomson.varghese@iccs.ac.in'" >thomson.varghese&#64;iccs.ac.in</a> 
+      </ul> 
+    </div>    
+    <div class="footer-section">
+      <h2>Featured Links</h2>
+      <ul>
+        <li><a routerLink="/programmes">Programmes</a></li>
+        <li><a routerLink="/students">Students</a></li>
+        <li><a routerLink="/examnotice">Exam Notice</a></li>
+        <li><a routerLink="/placements">Placements</a></li>
+        <li><a routerLink="/aboutus">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,28 @@
+.programmes-container {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px; 
+    background-color: #f4f4f4; /* Add background color for better visibility */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .programmes-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .programme-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .programme-item {
+    margin-bottom: 5px;
+  }
+
+  h2{
+    color: blueviolet;
+  }

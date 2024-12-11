@@ -1,0 +1,31 @@
+.column {
+    background-color: #f4f4f4; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    margin-bottom: 20px; /* Spacing between columns */
+  }
+  
+  .column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: blueviolet; /* Dark gray text */
+  }
+  
+  .program-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .program-item {
+    margin-bottom: 5px;
+  }
+  
+  .program-item::before {
+    content: "\2022"; /* Bullet point */
+    color: #555; /* Gray bullet color */
+    margin-right: 5px;
+  }
+  h2{
+    color: blueviolet;
+  }
